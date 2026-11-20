@@ -1,0 +1,94 @@
+keys,en,ru,kk
+Tap under the sun.,Tap under the sun.,Нажми под солнцем.,Күннің астын бас.
+Turn the crystal to hit the star.,Turn the crystal to hit the star.,Поверни кристалл к звезде.,Кристалды жұлдызға бұр.
+This cell is taken.,This cell is taken.,Клетка занята.,Ұяшық бос емес.
+No crystals left.,No crystals left.,Кристаллы закончились.,Кристалл қалмады.
+No prisms left.,No prisms left.,Призмы закончились.,Призма қалмады.
+Tap a cell for the prism.,Tap a cell for the prism.,Выбери клетку для призмы.,Призмаға ұяшық таңда.
+The prism splits the beam.,The prism splits the beam.,Призма делит луч.,Призма сәулені бөледі.
+One more crystal!,One more crystal!,Ещё один кристалл!,Тағы бір кристалл!
+Undone.,Undone.,Отменено.,Қайтарылды.
+You need %d crystals. Start on the glowing cell.,You need %d crystals. Start on the glowing cell.,Нужно кристаллов: %d. Начни со светящейся клетки.,%d кристалл керек. Жарқыраған ұяшықтан баста.
+You need 1 crystal. Put it on the glowing cell.,You need 1 crystal. Put it on the glowing cell.,Нужен 1 кристалл. Поставь его на светящуюся клетку.,1 кристалл керек. Оны жарқыраған ұяшыққа қой.
+All crystal cells are glowing.,All crystal cells are glowing.,Все клетки для кристаллов светятся.,Кристалл ұяшықтарының бәрі жарқырап тұр.
+Saved.,Saved.,Сохранено.,Сақталды.
+Could not save.,Could not save.,Не удалось сохранить.,Сақтау мүмкін болмады.
+Nothing saved yet.,Nothing saved yet.,Сохранений пока нет.,Әзірге ештеңе сақталмаған.
+Could not load.,Could not load.,Не удалось загрузить.,Жүктеу мүмкін болмады.
+Loaded.,Loaded.,Загружено.,Жүктелді.
+Up to 12 stars.,Up to 12 stars.,Не больше 12 звёзд.,12 жұлдыздан аспайды.
+"Reset all stars, aura and purchases?","Reset all stars, aura and purchases?","Сбросить все звёзды, ауру и покупки?","Барлық жұлдызды, аураны және сатып алуларды өшіресің бе?"
+max ★★,max ★★,макс. ★★,ең көбі ★★
+%s · Episode %d · %s,%s · Episode %d · %s,%s · Серия %d · %s,%s · %d-бөлім · %s
+ADVERTISEMENT · DEMO,ADVERTISEMENT · DEMO,РЕКЛАМА · ДЕМО,ЖАРНАМА · ДЕМО
+"Enjoying the quiet light?
+Share AURA with a friend who loves puzzles.","Enjoying the quiet light?
+Share AURA with a friend who loves puzzles.","Нравится тихий свет?
+Поделись AURA с другом, который любит головоломки.","Тыныш жарық ұнады ма?
+AURA-ны басқатырғыш ұнататын досыңмен бөліс."
+: On,: On,: вкл,: қосулы
+: Off,: Off,: выкл,: өшірулі
+Paused,Paused,Пауза,Үзіліс
+Resume,Resume,Продолжить,Жалғастыру
+Restart,Restart,Заново,Қайта бастау
+Restart chapter,Restart chapter,Начать заново,Қайта бастау
+Chapters,Chapters,Главы,Тараулар
+Settings,Settings,Настройки,Баптаулар
+Main menu,Main menu,Главное меню,Басты мәзір
+Chapter %d complete,Chapter %d complete,Глава %d пройдена!,%d-тарау өтілді!
+Crystals: %d · best: %d,Crystals: %d · best: %d,Кристаллов: %d · рекорд: %d,Кристалл: %d · рекорд: %d
+hints: %d,hints: %d,подсказок: %d,кеңес: %d
+Lira and Frieren's story continues...,Lira and Frieren's story continues...,История Лиры и Фрирен продолжается...,Лира мен Фрирен хикаясы жалғасады...
+Hint,Hint,Подсказка,Кеңес
+Extra crystal,Extra crystal,Доп. кристалл,Қосымша кристалл
+Prism,Prism,Призма,Призма
+Rose crystals,Rose crystals,Розовые кристаллы,Қызғылт кристалдар
+Mint crystals,Mint crystals,Мятные кристаллы,Жасыл кристалдар
+Gold crystals,Gold crystals,Золотые кристаллы,Алтын кристалдар
+Aurora beam,Aurora beam,Луч сияния,Шұғыла сәулесі
+Sunset beam,Sunset beam,Луч заката,Шапақ сәулесі
+Shows where a crystal goes.,Shows where a crystal goes.,"Показывает, куда поставить кристалл.",Кристалды қайда қою керегін көрсетеді.
+One more crystal above the chapter's limit.,One more crystal above the chapter's limit.,Ещё один кристалл сверх лимита главы.,Тарау шегінен тыс тағы бір кристалл.
+Splits the beam in two. A chapter won with a prism gives max ★★.,Splits the beam in two. A chapter won with a prism gives max ★★.,Делит луч на два. Глава с призмой даёт не больше ★★.,Сәулені екіге бөледі. Призмамен өткен тарау ең көбі ★★ береді.
+Makes your crystals pink.,Makes your crystals pink.,Делает кристаллы розовыми.,Кристалдарды қызғылт етеді.
+Makes your crystals mint green.,Makes your crystals mint green.,Делает кристаллы мятными.,Кристалдарды ашық жасыл етеді.
+Makes your crystals golden.,Makes your crystals golden.,Делает кристаллы золотыми.,Кристалдарды алтын түсті етеді.
+Makes the light beam green-blue.,Makes the light beam green-blue.,Делает луч зелёно-голубым.,Сәулені жасыл-көк етеді.
+Makes the light beam pink-orange.,Makes the light beam pink-orange.,Делает луч розово-оранжевым.,Сәулені қызғылт-сарғыш етеді.
+One beam can light several stars.,One beam can light several stars.,Один луч может зажечь несколько звёзд.,Бір сәуле бірнеше жұлдызды жаға алады.
+Stones block the light. Find the gap.,Stones block the light. Find the gap.,Камни не пускают свет. Найди проход.,Тастар жарықты өткізбейді. Өтетін жол тап.
+This star hides behind walls. Come from behind.,This star hides behind walls. Come from behind.,Звезда спряталась за стенами. Зайди сзади.,Жұлдыз қабырғалардың артында. Арт жағынан кел.
+The beam can cross its own path.,The beam can cross its own path.,Луч может пересечь свой же путь.,Сәуле өз жолын кесіп өте алады.
+"Turn, turn, turn: think in a spiral.","Turn, turn, turn: think in a spiral.","Поворот, ещё поворот: думай спиралью.","Бұрыл, тағы бұрыл: спиральмен ойла."
+Follow the stars down like stairs.,Follow the stars down like stairs.,"Спускайся по звёздам, как по лестнице.",Жұлдыздармен баспалдақтай төмен түс.
+Use everything you have learned.,Use everything you have learned.,"Используй всё, чему научилась.",Үйренгеннің бәрін қолдан.
+Credits,Credits,Авторы,Авторлар
+Shop,Shop,Магазин,Дүкен
+Play,Play,Играть,Ойнау
+Studio,Studio,Студия,Студия
+Episodes,Episodes,Серии,Бөлімдер
+Back,Back,Назад,Артқа
+OK,OK,Готово,Дайын
+Cancel,Cancel,Отмена,Болдырмау
+Undo,Undo,Отменить ход,Қайтару
+Delete,Delete,Удалить,Өшіру
+Turn right,Turn right,Повернуть вправо,Оңға бұру
+Turn left,Turn left,Повернуть влево,Солға бұру
+Pause,Pause,Пауза,Үзіліс
+Reduce animation,Reduce animation,Меньше анимации,Анимацияны азайту
+Vibration,Vibration,Вибрация,Діріл
+Tilt to rotate,Tilt to rotate,Поворот наклоном,Еңкейтіп бұру
+Show FPS,Show FPS,Показать FPS,FPS көрсету
+Save,Save,Сохранить,Сақтау
+Load,Load,Загрузить,Жүктеу
+Beams,Beams,Лучи,Сәулелер
+Sound,Sound,Звук,Дыбыс
+Music,Music,Музыка,Музыка
+Language,Language,Язык,Тіл
+Tutorial tips,Tutorial tips,Подсказки,Кеңестер
+Performance test,Performance test,Тест скорости,Жылдамдық сынағы
+Reset progress,Reset progress,Сбросить прогресс,Прогресті өшіру
+Performance test (60 s),Performance test (60 s),Тест скорости (60 с),Жылдамдық сынағы (60 с)
+For developers,For developers,Для разработчиков,Әзірлеушілерге
++%d aura,+%d aura,+%d ауры,+%d аура
+Aura is the light you collect. Spend it in the Shop.,Aura is the light you collect. Spend it in the Shop.,"Аура — это свет, который ты собираешь. Трать её в магазине.",Аура — сен жинайтын жарық. Оны дүкенде жұмса.

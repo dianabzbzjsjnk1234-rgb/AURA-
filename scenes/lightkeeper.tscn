@@ -1,0 +1,147 @@
+[gd_scene load_steps=17 format=3]
+
+[ext_resource type="Script" path="res://scripts/lightkeeper.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/art/lightkeeper/glow.png" id="glow"]
+[ext_resource type="Texture2D" path="res://assets/art/lightkeeper/idle_1.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/art/lightkeeper/idle_2.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/art/lightkeeper/idle_1.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/art/lightkeeper/idle_blink.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/art/lightkeeper/happy_1.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/art/lightkeeper/happy_2.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/art/lightkeeper/sad_1.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/art/lightkeeper/sad_2.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/art/lightkeeper/idle_surprised.png" id="10"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lightkeeper"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 0.6,
+"texture": ExtResource("5")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}],
+"loop": true,
+"name": &"happy",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}],
+"loop": true,
+"name": &"sad",
+"speed": 1.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10")
+}],
+"loop": true,
+"name": &"surprised",
+"speed": 1.0
+}]
+
+[sub_resource type="Animation" id="Animation_float"]
+resource_name = "float"
+length = 3.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Body:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.875, 1.75, 2.625),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 3), Vector2(0, 0), Vector2(0, -3)]
+}
+
+[sub_resource type="Animation" id="Animation_pop"]
+resource_name = "pop"
+length = 0.45
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Body:scale")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.25, 0.45),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0.5, 0.5), Vector2(0.56, 0.44), Vector2(0.46, 0.55), Vector2(0.5, 0.5)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_react"]
+_data = {
+&"pop": SubResource("Animation_pop")
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lightkeeper"]
+_data = {
+&"float": SubResource("Animation_float")
+}
+
+[node name="Lightkeeper" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Glow" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.85)
+position = Vector2(0, 70)
+scale = Vector2(0.32, 0.32)
+texture = ExtResource("glow")
+
+[node name="Body" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+offset = Vector2(0, 100)
+sprite_frames = SubResource("SpriteFrames_lightkeeper")
+animation = &"idle"
+
+[node name="Motion" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_lightkeeper")
+}
+autoplay = &"float"
+
+[node name="React" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_react")
+}

@@ -1,0 +1,73 @@
+{
+ "title": "Starfall",
+ "idea": "a staircase of stars",
+ "tip": "Follow the stars down like stairs.",
+ "source": [
+  1,
+  0
+ ],
+ "stars": [
+  [
+   3,
+   2
+  ],
+  [
+   5,
+   4
+  ],
+  [
+   8,
+   5
+  ],
+  [
+   10,
+   1
+  ]
+ ],
+ "walls": [
+  [
+   1,
+   4
+  ],
+  [
+   7,
+   2
+  ],
+  [
+   5,
+   6
+  ],
+  [
+   12,
+   5
+  ],
+  [
+   10,
+   0
+  ]
+ ],
+ "par": 4,
+ "max_mirrors": 5,
+ "solution": [
+  [
+   1,
+   2,
+   45
+  ],
+  [
+   5,
+   2,
+   45
+  ],
+  [
+   5,
+   5,
+   45
+  ],
+  [
+   10,
+   5,
+   135
+  ]
+ ]
+}

@@ -1,0 +1,598 @@
+{
+ "season": "Season 1 · Frieren's Way Home",
+ "season_ru": "Сезон 1 · Путь Фрирен домой",
+ "season_kk": "1-маусым · Фрирен үйіне қайтады",
+ "note": "AI use: see \"Use of AI tools\" in the README. speaker: keeper | star | narrator. mood: idle | happy | sad | surprised.",
+ "names": {
+  "keeper": "Lira",
+  "keeper_ru": "Лира",
+  "keeper_kk": "Лира",
+  "star": "Frieren",
+  "star_ru": "Фрирен",
+  "star_kk": "Фрирен"
+ },
+ "episodes": [
+  {
+   "title": "The First Star",
+   "title_ru": "Первая звезда",
+   "title_kk": "Алғашқы жұлдыз",
+   "scene": "scene_1.jpg",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "The first star shines again in Frieren's hands.",
+     "text_ru": "Первая звезда снова сияет в руках Фрирен.",
+     "text_kk": "Алғашқы жұлдыз Фрирен қолында қайта жарқырады."
+    },
+    {
+     "speaker": "star",
+     "text": "It's warm! I already feel a little stronger.",
+     "text_ru": "Она тёплая! Я уже чувствую себя чуть сильнее.",
+     "text_kk": "Ол жылы екен! Сәл күшейгенімді сезіп тұрмын."
+    },
+    {
+     "speaker": "keeper",
+     "mood": "surprised",
+     "text": "Look, more lights far away, on the old road.",
+     "text_ru": "Смотри, вдали ещё огоньки, на старой дороге.",
+     "text_kk": "Қара, алыста, ескі жолда тағы жарықтар бар."
+    },
+    {
+     "speaker": "star",
+     "text": "Those are my stars! They must be scared.",
+     "text_ru": "Это мои звёзды! Им, наверное, страшно.",
+     "text_kk": "Бұлар менің жұлдыздарым! Олар қорқып жатқан шығар."
+    },
+    {
+     "speaker": "keeper",
+     "mood": "happy",
+     "text": "Then let's not keep them waiting.",
+     "text_ru": "Тогда не будем заставлять их ждать.",
+     "text_kk": "Онда оларды күттірмейік."
+    }
+   ],
+   "choice": {
+    "prompt": "What does Lira say?",
+    "prompt_ru": "Что скажет Лира?",
+    "prompt_kk": "Лира не дейді?",
+    "options": [
+     {
+      "text": "I promise",
+      "text_ru": "Обещаю",
+      "text_kk": "Уәде беремін",
+      "mood": "happy",
+      "reply": "I promise. You'll be home before dawn.",
+      "reply_ru": "Обещаю. До рассвета ты будешь дома.",
+      "reply_kk": "Уәде беремін. Таң атқанша үйде боласың.",
+      "aura": 5
+     },
+     {
+      "text": "Hold my lantern",
+      "text_ru": "Держись за фонарь",
+      "text_kk": "Шамымды ұста",
+      "mood": "idle",
+      "reply": "Hold on to my lantern. It will keep you warm.",
+      "reply_ru": "Держись за мой фонарь. Он тебя согреет.",
+      "reply_kk": "Шамымды ұстап тұр. Ол сені жылытады.",
+      "aura": 5
+     }
+    ]
+   }
+  },
+  {
+   "title": "Twin Lights",
+   "title_ru": "Два огонька",
+   "title_kk": "Екі жарық",
+   "scene": "scene_2.jpg",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "On the old road, two small lights flicker.",
+     "text_ru": "На старой дороге мерцают два огонька.",
+     "text_kk": "Ескі жолда екі кішкентай жарық жылтырайды."
+    },
+    {
+     "speaker": "star",
+     "text": "Look, it's Tim and Tom! The twins!",
+     "text_ru": "Смотри, это Тим и Том! Близнецы!",
+     "text_kk": "Қара, бұл Тим мен Том! Егіздер!"
+    },
+    {
+     "speaker": "keeper",
+     "mood": "surprised",
+     "text": "They're fading. Their light is almost gone.",
+     "text_ru": "Они гаснут. Их свет почти погас.",
+     "text_kk": "Олар сөніп барады. Жарығы әлсіреп қалды."
+    },
+    {
+     "speaker": "keeper",
+     "mood": "happy",
+     "text": "One beam can reach them both. Let's hurry.",
+     "text_ru": "Один луч достанет до обоих. Поспешим.",
+     "text_kk": "Бір сәуле екеуіне де жетеді. Асығайық."
+    },
+    {
+     "speaker": "star",
+     "text": "I feel warmer already. Thank you, Lira!",
+     "text_ru": "Мне уже теплее. Спасибо, Лира!",
+     "text_kk": "Маған жылырақ болды. Рахмет, Лира!"
+    }
+   ],
+   "choice": {
+    "prompt": "What next?",
+    "prompt_ru": "Что дальше?",
+    "prompt_kk": "Енді не істейміз?",
+    "options": [
+     {
+      "text": "Keep going",
+      "text_ru": "Идём дальше",
+      "text_kk": "Әрі қарай жүрейік",
+      "mood": "happy",
+      "reply": "Two found. Let's find the rest.",
+      "reply_ru": "Двоих нашли. Найдём остальных.",
+      "reply_kk": "Екеуін таптық. Қалғандарын табайық.",
+      "aura": 5
+     },
+     {
+      "text": "Rest a little",
+      "text_ru": "Отдохнём немного",
+      "text_kk": "Сәл демалайық",
+      "mood": "idle",
+      "reply": "Let's rest a minute. The road is long.",
+      "reply_ru": "Давай немного отдохнём. Дорога длинная.",
+      "reply_kk": "Сәл демалайық. Жол ұзақ.",
+      "aura": 5
+     }
+    ]
+   }
+  },
+  {
+   "title": "The Hidden Path",
+   "title_ru": "Скрытая тропа",
+   "title_kk": "Жасырын соқпақ",
+   "scene": "scene_3.jpg",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "The road ends. Ahead is a forest with tall grass.",
+     "text_ru": "Дорога закончилась. Впереди лес и высокая трава.",
+     "text_kk": "Жол бітті. Алда орман мен биік шөп."
+    },
+    {
+     "speaker": "star",
+     "text": "I can't see anything. How will we get through?",
+     "text_ru": "Я ничего не вижу. Как мы пройдём?",
+     "text_kk": "Ештеңе көрмеймін. Қалай өтеміз?"
+    },
+    {
+     "speaker": "keeper",
+     "mood": "idle",
+     "text": "Light finds gaps that feet can't. My crystals will show the way.",
+     "text_ru": "Свет находит щели, где не пройти ногами. Кристаллы покажут дорогу.",
+     "text_kk": "Жарық аяқ өтпейтін саңылауды табады. Кристалдар жол көрсетеді."
+    },
+    {
+     "speaker": "star",
+     "text": "Wait, I hear someone giggling in the grass!",
+     "text_ru": "Подожди, в траве кто-то хихикает!",
+     "text_kk": "Тоқта, шөптің ішінде біреу күліп жатыр!"
+    },
+    {
+     "speaker": "keeper",
+     "mood": "happy",
+     "text": "Another star! Let's light the path to her.",
+     "text_ru": "Ещё одна звезда! Проложим к ней путь.",
+     "text_kk": "Тағы бір жұлдыз! Оған жол салайық."
+    }
+   ],
+   "choice": {
+    "prompt": "How does Lira call her?",
+    "prompt_ru": "Как Лира её позовёт?",
+    "prompt_kk": "Лира оны қалай шақырады?",
+    "options": [
+     {
+      "text": "Softly",
+      "text_ru": "Тихо",
+      "text_kk": "Ақырын",
+      "mood": "happy",
+      "reply": "Come out, little one. Frieren is here.",
+      "reply_ru": "Выходи, малышка. Здесь Фрирен.",
+      "reply_kk": "Шық, балақай. Мұнда Фрирен бар.",
+      "aura": 5
+     },
+     {
+      "text": "With a game",
+      "text_ru": "Через игру",
+      "text_kk": "Ойынмен",
+      "mood": "surprised",
+      "reply": "Found you! Now it's your turn to find us.",
+      "reply_ru": "Нашла! Теперь ты нас ищи.",
+      "reply_kk": "Таптым! Енді сен бізді із.",
+      "aura": 5
+     }
+    ]
+   }
+  },
+  {
+   "title": "Behind the Wall",
+   "title_ru": "За стеной",
+   "title_kk": "Қабырға артында",
+   "scene": "scene_4.jpg",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "They come to an empty old town. Nobody lives here anymore.",
+     "text_ru": "Они приходят в пустой старый город. Здесь никто не живёт.",
+     "text_kk": "Олар бос ескі қалаға келеді. Мұнда енді ешкім тұрмайды."
+    },
+    {
+     "speaker": "star",
+     "text": "My sister Nell is hiding behind that wall. She's afraid.",
+     "text_ru": "Моя сестра Нелл прячется за стеной. Она боится.",
+     "text_kk": "Апам Нелл қабырғаның артында жасырынып отыр. Ол қорқады."
+    },
+    {
+     "speaker": "keeper",
+     "mood": "sad",
+     "text": "People stopped looking at the sky here. She felt forgotten.",
+     "text_ru": "Здесь люди перестали смотреть на небо. Она почувствовала себя забытой.",
+     "text_kk": "Мұнда адамдар аспанға қарамай кетті. Ол өзін ұмытылғандай сезінді."
+    },
+    {
+     "speaker": "star",
+     "text": "Nell, it's me! You're not forgotten!",
+     "text_ru": "Нелл, это я! Тебя не забыли!",
+     "text_kk": "Нелл, бұл менмін! Сені ешкім ұмытқан жоқ!"
+    },
+    {
+     "speaker": "keeper",
+     "mood": "idle",
+     "text": "The walls block the light. We'll have to go around them.",
+     "text_ru": "Стены не пускают свет. Придётся обходить их.",
+     "text_kk": "Қабырғалар жарықты өткізбейді. Оларды айналып өтуге тура келеді."
+    }
+   ],
+   "choice": {
+    "prompt": "What does Lira do?",
+    "prompt_ru": "Что сделает Лира?",
+    "prompt_kk": "Лира не істейді?",
+    "options": [
+     {
+      "text": "Wait for Nell",
+      "text_ru": "Подождать Нелл",
+      "text_kk": "Неллді күту",
+      "mood": "idle",
+      "reply": "We'll wait. Come out when you're ready.",
+      "reply_ru": "Мы подождём. Выходи, когда будешь готова.",
+      "reply_kk": "Біз күтеміз. Дайын болғанда шық.",
+      "aura": 5
+     },
+     {
+      "text": "Send a little light",
+      "text_ru": "Послать немного света",
+      "text_kk": "Сәл жарық жіберу",
+      "mood": "happy",
+      "reply": "Just a little light, so it's not dark.",
+      "reply_ru": "Совсем немного света, чтобы не было темно.",
+      "reply_kk": "Қараңғы болмас үшін сәл ғана жарық.",
+      "aura": 5
+     }
+    ]
+   }
+  },
+  {
+   "title": "Crossroads",
+   "title_ru": "Перекрёсток",
+   "title_kk": "Жол айрығы",
+   "scene": "scene_5.jpg",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "The road splits in two. Fog is coming.",
+     "text_ru": "Дорога раздваивается. Надвигается туман.",
+     "text_kk": "Жол екіге бөлінеді. Тұман жақындап келеді."
+    },
+    {
+     "speaker": "star",
+     "text": "Which way? I'm scared we'll get lost.",
+     "text_ru": "Куда идти? Боюсь, мы заблудимся.",
+     "text_kk": "Қай жаққа барамыз? Адасып кетеміз бе деп қорқамын."
+    },
+    {
+     "speaker": "keeper",
+     "mood": "sad",
+     "text": "I was here once with my teacher. She taught me to guide lights.",
+     "text_ru": "Я была здесь однажды с моей учительницей. Она научила меня вести огоньки.",
+     "text_kk": "Мен мұнда бір рет ұстазыммен болғанмын. Ол маған жарықтарды бастауды үйретті."
+    },
+    {
+     "speaker": "star",
+     "text": "Where is she now?",
+     "text_ru": "А где она сейчас?",
+     "text_kk": "Ол қазір қайда?"
+    },
+    {
+     "speaker": "keeper",
+     "mood": "idle",
+     "text": "She went up to the sky long ago. Maybe she's watching us.",
+     "text_ru": "Она давно ушла на небо. Может, она смотрит на нас.",
+     "text_kk": "Ол баяғыда аспанға кетті. Мүмкін, бізге қарап тұрған шығар."
+    }
+   ],
+   "choice": {
+    "prompt": "Which way?",
+    "prompt_ru": "Куда пойти?",
+    "prompt_kk": "Қай жолмен барамыз?",
+    "options": [
+     {
+      "text": "Left, to the hills",
+      "text_ru": "Налево, к холмам",
+      "text_kk": "Солға, төбелерге",
+      "mood": "happy",
+      "reply": "Left. My teacher always went left.",
+      "reply_ru": "Налево. Моя учительница всегда шла налево.",
+      "reply_kk": "Солға. Ұстазым әрқашан солға жүретін.",
+      "aura": 5
+     },
+     {
+      "text": "Follow the light",
+      "text_ru": "За светом",
+      "text_kk": "Жарықтың соңынан",
+      "mood": "surprised",
+      "reply": "Look, a faint glow on the right. Let's follow it.",
+      "reply_ru": "Смотри, справа слабый свет. Идём за ним.",
+      "reply_kk": "Қара, оң жақта әлсіз жарық бар. Соның соңынан жүрейік.",
+      "aura": 5
+     }
+    ]
+   }
+  },
+  {
+   "title": "The Mirror Maze",
+   "title_ru": "Зеркальный лабиринт",
+   "title_kk": "Айна лабиринті",
+   "scene": "scene_6.jpg",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "They enter a maze made of mirrors.",
+     "text_ru": "Они заходят в лабиринт из зеркал.",
+     "text_kk": "Олар айналардан жасалған лабиринтке кіреді."
+    },
+    {
+     "speaker": "star",
+     "text": "There are a hundred Liras here! Which one is you?",
+     "text_ru": "Тут сто Лир! Какая из них ты?",
+     "text_kk": "Мұнда жүз Лира бар! Қайсысы сенсің?"
+    },
+    {
+     "speaker": "keeper",
+     "mood": "sad",
+     "text": "In the mirrors I look like a scared little girl. Am I really a good lightkeeper?",
+     "text_ru": "В зеркалах я похожа на испуганную девочку. Я правда хорошая хранительница?",
+     "text_kk": "Айнада қорыққан кішкентай қызға ұқсаймын. Мен шынымен жақсы сақтаушымын ба?"
+    },
+    {
+     "speaker": "star",
+     "text": "You found four stars! You're the best lightkeeper I know.",
+     "text_ru": "Ты нашла четыре звезды! Ты лучшая хранительница, какую я знаю.",
+     "text_kk": "Сен төрт жұлдыз таптың! Сен мен білетін ең жақсы сақтаушысың."
+    },
+    {
+     "speaker": "keeper",
+     "mood": "happy",
+     "text": "Thank you, Frieren. Mirrors can help us too. Let's bounce the light out.",
+     "text_ru": "Спасибо, Фрирен. Зеркала тоже могут помочь. Выведем свет наружу.",
+     "text_kk": "Рахмет, Фрирен. Айналар да көмектесе алады. Жарықты сыртқа шығарайық."
+    }
+   ],
+   "choice": {
+    "prompt": "What does Lira tell her reflection?",
+    "prompt_ru": "Что Лира скажет отражению?",
+    "prompt_kk": "Лира бейнесіне не дейді?",
+    "options": [
+     {
+      "text": "I can do this",
+      "text_ru": "Я справлюсь",
+      "text_kk": "Мен жеңемін",
+      "mood": "happy",
+      "reply": "I can do this. I'm not alone.",
+      "reply_ru": "Я справлюсь. Я не одна.",
+      "reply_kk": "Мен жеңемін. Мен жалғыз емеспін.",
+      "aura": 5
+     },
+     {
+      "text": "It's okay to be scared",
+      "text_ru": "Бояться — нормально",
+      "text_kk": "Қорқу — қалыпты",
+      "mood": "idle",
+      "reply": "It's okay to be scared. I'll keep going anyway.",
+      "reply_ru": "Бояться — нормально. Я всё равно пойду дальше.",
+      "reply_kk": "Қорқу — қалыпты. Бәрібір әрі қарай жүремін.",
+      "aura": 5
+     }
+    ]
+   }
+  },
+  {
+   "title": "Starfall",
+   "title_ru": "Звездопад",
+   "title_kk": "Жұлдыз жауыны",
+   "scene": "scene_7.jpg",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Above the city, the sky is full of stars.",
+     "text_ru": "Над городом небо полно звёзд.",
+     "text_kk": "Қаланың үстіндегі аспан жұлдызға толы."
+    },
+    {
+     "speaker": "star",
+     "text": "Lira, look! Tonight is the Night of Return. The sky opens only once a year.",
+     "text_ru": "Лира, смотри! Сегодня Ночь Возвращения. Небо открывается раз в год.",
+     "text_kk": "Лира, қара! Бүгін Оралу түні. Аспан жылына бір рет ашылады."
+    },
+    {
+     "speaker": "keeper",
+     "mood": "surprised",
+     "text": "So you must go back before sunrise?",
+     "text_ru": "Значит, тебе нужно вернуться до восхода?",
+     "text_kk": "Демек, күн шыққанша қайтуың керек пе?"
+    },
+    {
+     "speaker": "star",
+     "text": "Yes. But my last brother is still down here.",
+     "text_ru": "Да. Но мой последний брат ещё здесь, внизу.",
+     "text_kk": "Иә. Бірақ соңғы ағам әлі осында, төменде."
+    },
+    {
+     "speaker": "keeper",
+     "mood": "happy",
+     "text": "Then we have one more chance. Let's not waste it.",
+     "text_ru": "Тогда у нас есть ещё один шанс. Не упустим его.",
+     "text_kk": "Онда бізде тағы бір мүмкіндік бар. Оны жіберіп алмайық."
+    }
+   ],
+   "choice": {
+    "prompt": "How does Lira feel?",
+    "prompt_ru": "Что чувствует Лира?",
+    "prompt_kk": "Лира не сезінеді?",
+    "options": [
+     {
+      "text": "Happy for Frieren",
+      "text_ru": "Радуется за Фрирен",
+      "text_kk": "Фрирен үшін қуанады",
+      "mood": "happy",
+      "reply": "I'm happy for you. You'll finally be home.",
+      "reply_ru": "Я рада за тебя. Наконец ты будешь дома.",
+      "reply_kk": "Сен үшін қуаныштымын. Ақыры үйде боласың.",
+      "aura": 5
+     },
+     {
+      "text": "A little sad",
+      "text_ru": "Немного грустно",
+      "text_kk": "Сәл мұңды",
+      "mood": "sad",
+      "reply": "I'll miss you. But that's okay.",
+      "reply_ru": "Я буду скучать. Но это ничего.",
+      "reply_kk": "Мен сені сағынамын. Бірақ ештеңе етпейді.",
+      "aura": 5
+     }
+    ]
+   }
+  },
+  {
+   "title": "The Last Light",
+   "title_ru": "Последний свет",
+   "title_kk": "Соңғы жарық",
+   "scene": "scene_8.jpg",
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Dawn. All the stars are together again.",
+     "text_ru": "Рассвет. Все звёзды снова вместе.",
+     "text_kk": "Таң атты. Барлық жұлдыз қайтадан бірге."
+    },
+    {
+     "speaker": "star",
+     "text": "I'm strong enough now. I can fly home.",
+     "text_ru": "Теперь у меня хватит сил. Я могу лететь домой.",
+     "text_kk": "Енді күшім жетеді. Үйге ұша аламын."
+    },
+    {
+     "speaker": "keeper",
+     "mood": "sad",
+     "text": "My lantern is empty. I gave all my light away.",
+     "text_ru": "Мой фонарь пуст. Я отдала весь свой свет.",
+     "text_kk": "Менің шамым бос. Бар жарығымды бердім."
+    },
+    {
+     "speaker": "star",
+     "text": "Then take a little of mine. Every night, look up. I'll be the one winking at you.",
+     "text_ru": "Тогда возьми немного моего. Каждую ночь смотри наверх. Я буду тебе подмигивать.",
+     "text_kk": "Онда менің жарығымнан ал. Әр түні жоғары қара. Мен саған көз қысамын."
+    },
+    {
+     "speaker": "keeper",
+     "mood": "happy",
+     "text": "Goodbye, Frieren. Have a safe flight home.",
+     "text_ru": "Прощай, Фрирен. Счастливого пути домой.",
+     "text_kk": "Сау бол, Фрирен. Үйге аман жет."
+    }
+   ],
+   "choice": {
+    "prompt": "Lira's last words:",
+    "prompt_ru": "Последние слова Лиры:",
+    "prompt_kk": "Лираның соңғы сөзі:",
+    "options": [
+     {
+      "text": "See you tonight",
+      "text_ru": "До вечера",
+      "text_kk": "Кешке дейін",
+      "mood": "happy",
+      "reply": "See you tonight, little star.",
+      "reply_ru": "До вечера, звёздочка.",
+      "reply_kk": "Кешке дейін, жұлдызшам.",
+      "aura": 10
+     },
+     {
+      "text": "Thank you",
+      "text_ru": "Спасибо",
+      "text_kk": "Рахмет",
+      "mood": "happy",
+      "reply": "Thank you for walking with me.",
+      "reply_ru": "Спасибо, что шла со мной.",
+      "reply_kk": "Менімен бірге жүргенің үшін рахмет.",
+      "aura": 10
+     }
+    ]
+   }
+  }
+ ],
+ "intro": {
+  "title": "Prologue",
+  "title_ru": "Пролог",
+  "title_kk": "Кіріспе",
+  "scene": "scene_1.jpg",
+  "lines": [
+   {
+    "speaker": "narrator",
+    "text": "This is Lira, a young lightkeeper. Every night she looks after the stars.",
+    "text_ru": "Это Лира, юная хранительница света. Каждую ночь она присматривает за звёздами.",
+    "text_kk": "Бұл — Лира, жас жарық сақтаушы. Ол әр түні жұлдыздарды бақылайды."
+   },
+   {
+    "speaker": "keeper",
+    "mood": "happy",
+    "text": "I love this job. The sky is so calm at night.",
+    "text_ru": "Я люблю эту работу. Ночью небо такое спокойное.",
+    "text_kk": "Бұл жұмысымды жақсы көремін. Түнде аспан сондай тыныш."
+   },
+   {
+    "speaker": "narrator",
+    "text": "But one night, Frieren, a little fairy of light, fell from the sky with all her stars.",
+    "text_ru": "Но однажды ночью с неба упала Фрирен, маленькая фея света, а вместе с ней все её звёзды.",
+    "text_kk": "Бірақ бір түні аспаннан кішкентай жарық перісі Фрирен барлық жұлдыздарымен бірге құлады."
+   },
+   {
+    "speaker": "star",
+    "text": "Lira, help! My stars are scattered all over the valley. Without them I can't fly home.",
+    "text_ru": "Лира, помоги! Мои звёзды разбросаны по всей долине. Без них я не смогу улететь домой.",
+    "text_kk": "Лира, көмектес! Жұлдыздарым бүкіл алқапқа шашылып қалды. Оларсыз үйге ұша алмаймын."
+   },
+   {
+    "speaker": "keeper",
+    "mood": "surprised",
+    "text": "Don't worry, Frieren. We'll find every star together. Let's go!",
+    "text_ru": "Не бойся, Фрирен. Мы вместе найдём каждую звезду. Идём!",
+    "text_kk": "Қорықпа, Фрирен. Әр жұлдызды бірге табамыз. Кеттік!"
+   },
+   {
+    "speaker": "narrator",
+    "text": "Bounce the light with crystals and light up every star.",
+    "text_ru": "Направляй свет кристаллами и зажги каждую звезду.",
+    "text_kk": "Жарықты кристалдармен бағытта да, әр жұлдызды жақ."
+   }
+  ]
+ }
+}

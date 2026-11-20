@@ -1,0 +1,64 @@
+{
+ "title": "Behind the Wall",
+ "idea": "reach the star from behind",
+ "tip": "This star hides behind walls. Come from behind.",
+ "source": [
+  4,
+  0
+ ],
+ "stars": [
+  [
+   10,
+   3
+  ]
+ ],
+ "walls": [
+  [
+   9,
+   3
+  ],
+  [
+   10,
+   2
+  ],
+  [
+   10,
+   4
+  ],
+  [
+   7,
+   1
+  ],
+  [
+   7,
+   2
+  ],
+  [
+   8,
+   6
+  ],
+  [
+   13,
+   3
+  ]
+ ],
+ "par": 3,
+ "max_mirrors": 4,
+ "solution": [
+  [
+   4,
+   5,
+   45
+  ],
+  [
+   12,
+   5,
+   135
+  ],
+  [
+   12,
+   3,
+   45
+  ]
+ ]
+}

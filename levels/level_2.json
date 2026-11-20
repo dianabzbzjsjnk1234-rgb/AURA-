@@ -1,0 +1,43 @@
+{
+ "title": "Twin Lights",
+ "idea": "one beam through two stars",
+ "tip": "One beam can light several stars.",
+ "source": [
+  3,
+  0
+ ],
+ "stars": [
+  [
+   7,
+   3
+  ],
+  [
+   9,
+   6
+  ]
+ ],
+ "walls": [
+  [
+   3,
+   5
+  ],
+  [
+   12,
+   3
+  ]
+ ],
+ "par": 2,
+ "max_mirrors": 3,
+ "solution": [
+  [
+   3,
+   3,
+   45
+  ],
+  [
+   9,
+   3,
+   45
+  ]
+ ]
+}

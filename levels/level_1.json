@@ -1,0 +1,25 @@
+{
+ "title": "First Star",
+ "idea": "one turn",
+ "tip": "Tap under the sun.",
+ "source": [
+  6,
+  0
+ ],
+ "stars": [
+  [
+   11,
+   4
+  ]
+ ],
+ "walls": [],
+ "par": 1,
+ "max_mirrors": 1,
+ "solution": [
+  [
+   6,
+   4,
+   45
+  ]
+ ]
+}

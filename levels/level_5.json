@@ -1,0 +1,56 @@
+{
+ "title": "Crossroads",
+ "idea": "the beam crosses its own path",
+ "tip": "The beam can cross its own path.",
+ "source": [
+  3,
+  0
+ ],
+ "stars": [
+  [
+   6,
+   4
+  ],
+  [
+   9,
+   3
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "walls": [
+  [
+   0,
+   2
+  ],
+  [
+   3,
+   6
+  ],
+  [
+   11,
+   4
+  ]
+ ],
+ "par": 3,
+ "max_mirrors": 4,
+ "solution": [
+  [
+   3,
+   4,
+   45
+  ],
+  [
+   9,
+   4,
+   135
+  ],
+  [
+   9,
+   2,
+   45
+  ]
+ ]
+}

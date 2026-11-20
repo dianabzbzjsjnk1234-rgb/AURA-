@@ -1,0 +1,55 @@
+{
+ "title": "Hidden Path",
+ "idea": "the straight way is blocked; find the only gap",
+ "tip": "Stones block the light. Find the gap.",
+ "source": [
+  2,
+  0
+ ],
+ "stars": [
+  [
+   11,
+   5
+  ]
+ ],
+ "walls": [
+  [
+   6,
+   5
+  ],
+  [
+   5,
+   1
+  ],
+  [
+   5,
+   2
+  ],
+  [
+   5,
+   4
+  ],
+  [
+   7,
+   6
+  ],
+  [
+   2,
+   6
+  ]
+ ],
+ "par": 2,
+ "max_mirrors": 3,
+ "solution": [
+  [
+   2,
+   3,
+   45
+  ],
+  [
+   11,
+   3,
+   45
+  ]
+ ]
+}
